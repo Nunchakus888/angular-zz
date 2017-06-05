@@ -1,7 +1,7 @@
 import {Component, OnInit} from '@angular/core';
 
 @Component({
-    selector: 'app-like',
+    selector: 'like',
     templateUrl: './like.component.html',
     styleUrls: ['./like.component.css']
 })
