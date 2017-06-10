@@ -1,4 +1,6 @@
 <my-header title="图书清单"></my-header>
 <ul>
-    <li *ngFor="let item of concatList">{{item}}</li>
+    <li *ngFor="let item of concatList">
+        <list-item [item]="item"></list-item>
+    </li>
 </ul>

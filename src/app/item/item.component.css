@@ -1,0 +1,29 @@
+.book-image {
+    position: absolute;
+    float: left;
+    margin-left: 10px;
+    max-width: 200px;
+}
+
+.book-name {
+    vertical-align: middle;
+    text-align: left;
+    font-size: 1.8em;
+    /*margin-bottom: 5px;*/
+    margin-top: 0;
+    overflow: hidden;
+    height: 35px;
+}
+
+.book-detail {
+    height: 125px;
+    overflow: hidden;
+}
+
+.image-content {
+    margin-top: 15px;
+    margin-left: 200px;
+    overflow: hidden;
+    display: block;
+}
+

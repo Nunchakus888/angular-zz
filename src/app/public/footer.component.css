@@ -1,12 +1,27 @@
 nav {
-    display: inline-block;
-    width: 100%;
-    top: 90%;
-    margin: 0 auto;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #3fdb9b;
+    z-index:10;
+    text-align: center;
+
 }
 
-a {
-    display: inline-block;
+/*nav :after {
+    content: '';
+    visibility: hidden;
+    height: 0;
+    display: block;
+    clear: both;
+}*/
+
+nav a {
+    /*float: left;*/
     width: 20%;
-    text-align: center;
+    height: 100%;
+    display: inline-block;
+    text-decoration: none;
+    /*color:red;*/
 }
