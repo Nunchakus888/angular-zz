@@ -1,8 +1,5 @@
 <my-header title="ToDo..."></my-header>
-<div>
-    <input type="text" [(ngModel)]="content" (keyup.enter)="addTodo()"/>
-</div>
-
+<my-input (inputSomething)="inputSomething($event)"></my-input>
 <ul>
     <li *ngFor="let item of todoList">{{item.content}}</li>
 </ul>

@@ -15,6 +15,7 @@ export class MyFooter {
         {url: 'list', title: '列表'},
         {url: 'like', title: '收藏'},
         {url: 'clock', title: 'clock'},
+        {url: 'search', title: 'search'},
         {url: 'todo', title: 'ToDo..'}
         ];
 
